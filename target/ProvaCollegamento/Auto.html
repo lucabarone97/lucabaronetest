@@ -1,0 +1,29 @@
+
+<h2>
+	<font face="Rockwell" size=6> Auto Disponibili </font>
+</h2>
+
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th scope="col">Casa produttrice</th>
+			<th scope="col">Modello</th>
+			<th scope="col">Colore</th>
+			<th scope="col">Km</th>
+			<th scope="col">Anno</th>
+			<th scope="col">Prezzo</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr data-ng-repeat="x in lista">
+			<td>{{ x.casaAuto }}</td>
+			<td>{{ x.modello }}</td>
+			<td>{{ x.colore }}</td>
+			<td>{{ x.km }}</td>
+			<td>{{ x.anno }}</td>
+			<td>{{ x.prezzo }}</td>
+		</tr>
+	</tbody>
+</table>
+
+</div>

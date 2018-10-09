@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="collegamento.gestionale.Auto" table="auto">
+		<id name="id" type="int" column="id">
+		</id>
+		<property name="casaAuto" column="casaAuto" type="string" />
+		<property name="modello" column="modello" type="string" />
+		<property name="colore" column="colore" type="string" />
+		<property name="km" column="km" type="double" />
+		<property name="anno" column="anno" type="double" />
+		<property name="prezzo" column="prezzo" type="double" />
+		<property name="stato" column="stato" type="string" />
+
+
+	</class>
+</hibernate-mapping>
