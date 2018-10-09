@@ -14,9 +14,11 @@ public class DB {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
 		}
-		Connection connection =   DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/auto?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
-				"root", "admin");
+//		Connection connection =   DriverManager.getConnection(
+//				"jdbc:mysql://localhost:3306/auto?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
+//				"root", "admin");
+		Connection connection =   DriverManager.getConnection("jdbc:mysql://eu-cdbr-west-02.cleardb.net:3306/heroku_f5d1a1c1bf3c471?reconnect=true", "be0523bcb18f06", "414539fe");
+				
 		this.statement = connection.createStatement();
 
 	}
