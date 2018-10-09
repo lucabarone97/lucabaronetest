@@ -5,9 +5,9 @@
 <hibernate-configuration>
 	<session-factory>
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/auto?useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</property>
-		<property name="hibernate.connection.username">root</property>
-		<property name="hibernate.connection.password">admin</property>
+		<property name="hibernate.connection.url">jdbc:mysql://eu-cdbr-west-02.cleardb.net:3306/heroku_f5d1a1c1bf3c471</property>
+		<property name="hibernate.connection.username">be0523bcb18f06</property>
+		<property name="hibernate.connection.password">414539fe</property>
 		<property name="hibernate.show_sql">true</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 
